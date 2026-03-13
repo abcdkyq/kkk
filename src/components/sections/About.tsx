@@ -9,7 +9,7 @@ export default function About() {
     <SectionWrapper id="about">
       <div className="mx-auto max-w-3xl">
         <h2 className="mb-2 text-2xl font-bold tracking-tight">关于我</h2>
-        <p className="mb-8 text-sm text-muted-foreground">About Me</p>
+        <p className="mb-5 text-sm text-muted-foreground md:mb-8">About Me</p>
 
         <div className="space-y-6 text-sm leading-relaxed text-muted-foreground">
           <p>
@@ -22,9 +22,9 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-6 text-sm">
-          <div className="flex items-center gap-2 text-muted-foreground">
-            <GraduationCap size={16} />
+        <div className="mt-8 flex flex-wrap gap-3 text-sm sm:gap-6">
+          <div className="flex items-start gap-2 text-muted-foreground">
+            <GraduationCap size={16} className="mt-0.5 shrink-0" />
             <span>
               {education.school} · {education.major} · {education.period}
             </span>

@@ -11,14 +11,14 @@ export default function Skills() {
     <SectionWrapper id="skills">
       <div className="mx-auto max-w-3xl">
         <h2 className="mb-2 text-2xl font-bold tracking-tight">技能</h2>
-        <p className="mb-10 text-sm text-muted-foreground">Skills</p>
+        <p className="mb-6 text-sm text-muted-foreground md:mb-10">Skills</p>
 
         <motion.div
           variants={staggerContainer}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, margin: "-80px" }}
-          className="grid gap-8 sm:grid-cols-2"
+          className="grid gap-5 sm:grid-cols-2 sm:gap-8"
         >
           {skillCategories.map((cat) => (
             <motion.div key={cat.name} variants={fadeInUp}>

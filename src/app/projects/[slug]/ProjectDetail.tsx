@@ -52,7 +52,7 @@ export default function ProjectDetail({
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="mx-auto max-w-3xl px-6 py-12">
+      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12">
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -72,8 +72,8 @@ export default function ProjectDetail({
 
           {/* Header */}
           <motion.div variants={fadeInUp} className="space-y-3">
-            <div className="flex items-center gap-3">
-              <h1 className="text-3xl font-bold tracking-tight">
+            <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-3">
+              <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
                 {project.title}
               </h1>
               <span className="text-sm text-muted-foreground">

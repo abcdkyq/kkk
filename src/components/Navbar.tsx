@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-md md:hidden"
           aria-label={open ? "关闭菜单" : "打开菜单"}
         >
           {open ? <X size={20} /> : <Menu size={20} />}

@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   description: "Unity 游戏开发实习生作品集 - Game Development Portfolio",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover" as const,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -17,13 +17,14 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     <motion.div
       whileHover={{ y: -4 }}
       transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+      className="group"
     >
       <Card className="overflow-hidden border-border/60 bg-card">
         <BilibiliEmbed bvid={project.bvid} title={project.title} />
-        <CardContent className="space-y-3 p-5">
-          <div className="flex items-center justify-between">
-            <h3 className="text-lg font-semibold">{project.title}</h3>
-            <span className="text-xs text-muted-foreground">
+        <CardContent className="space-y-3 p-4 sm:p-5">
+          <div className="flex items-start justify-between gap-2">
+            <h3 className="min-w-0 text-lg font-semibold">{project.title}</h3>
+            <span className="shrink-0 text-xs text-muted-foreground">
               {project.role}
             </span>
           </div>
@@ -53,7 +54,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </div>
           <Link
             href={`/projects/${project.slug}`}
-            className="inline-flex items-center gap-1 pt-2 text-xs font-medium text-primary transition-colors hover:text-primary/80"
+            className="inline-flex items-center gap-1 py-2 text-xs font-medium text-primary transition-colors hover:text-primary/80"
           >
             查看详情
             <ArrowRight size={12} />

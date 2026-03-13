@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="mb-2 text-2xl font-bold tracking-tight">联系方式</h2>
         <p className="mb-4 text-sm text-muted-foreground">Contact</p>
-        <p className="mb-8 text-sm leading-relaxed text-muted-foreground">
+        <p className="mb-5 text-sm leading-relaxed text-muted-foreground md:mb-8">
           如果你对我的作品感兴趣，或者有实习机会，欢迎联系我。
         </p>
 

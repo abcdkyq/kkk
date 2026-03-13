@@ -25,7 +25,7 @@ export default function SectionWrapper({
       variants={fadeInUp}
       initial="initial"
       animate={isInView ? "animate" : "initial"}
-      className={`px-6 py-20 md:px-12 lg:px-24 ${className}`}
+      className={`px-6 py-12 md:px-12 md:py-20 lg:px-24 ${className}`}
     >
       {children}
     </motion.section>

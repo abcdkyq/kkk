@@ -7,7 +7,7 @@ import { fadeInUp, staggerContainer } from "@/lib/animations";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center px-6">
+    <section className="relative flex min-h-dvh flex-col items-center justify-center px-6">
       <motion.div
         variants={staggerContainer}
         initial="initial"
@@ -22,7 +22,7 @@ export default function Hero() {
         </motion.p>
         <motion.h1
           variants={fadeInUp}
-          className="mb-4 text-4xl font-bold tracking-tight md:text-5xl"
+          className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
         >
           {siteConfig.name}
         </motion.h1>
