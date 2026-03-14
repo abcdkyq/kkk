@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "孔榆乔",
-  nameEn: "KKKYQ",
+  nameEn: "KKK6.",
   title: "Unity 游戏开发",
   titleEn: "Unity Game Developer",
   description:
@@ -88,19 +88,19 @@ export const skillCategories: SkillCategory[] = [
     name: "游戏引擎",
     nameEn: "Game Engine",
     icon: "Gamepad2",
-    skills: ["Unity", "Unity Editor 扩展", "Unity UI Toolkit", "Shader Graph"],
+    skills: ["Unity", "Unity Editor 扩展", "UnityGUI", "Shader Graph"],
   },
   {
     name: "编程语言",
     nameEn: "Programming",
     icon: "Code",
-    skills: ["C#", "HLSL / Shader", "Lua", "TypeScript"],
+    skills: ["C#", "HLSL / Shader", "C++"],
   },
   {
     name: "工具与流程",
     nameEn: "Tools & Pipeline",
     icon: "Wrench",
-    skills: ["Git", "Blender (基础)", "Photoshop", "Notion"],
+    skills: ["Git", "Rider/VS2022", "Sourcetree"],
   },
   {
     name: "其他能力",

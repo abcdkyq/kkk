@@ -14,7 +14,7 @@ export default function About() {
         <div className="space-y-6 text-sm leading-relaxed text-muted-foreground">
           <p>
             我是一名热爱游戏开发的在校学生，专注于 Unity
-            引擎的学习与实践。从最初对游戏的好奇，到现在能够独立完成完整的游戏原型，这段旅程让我对交互设计和实时渲染有了深入的理解。
+            引擎的学习与实践。从最初对游戏的好奇，到现在能够独立完成完整的游戏原型，这段旅程让我对交互设计和性能优化有了深入的理解。
           </p>
           <p>
             我相信好的游戏体验来自于对细节的打磨。无论是角色手感的调优、UI
