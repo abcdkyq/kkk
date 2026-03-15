@@ -60,18 +60,48 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "多人在线射击原型",
-    titleEn: "Multiplayer Shooter Prototype",
-    slug: "multiplayer-shooter",
+    title: "AssetBundle资源框架",
+    titleEn: "Unity AssetBundle Framework",
+    slug: "assetbundle-framework",
     description:
-      "基于 Unity Netcode 的多人在线射击游戏原型，实现了网络同步、射击判定和基础的匹配系统。",
+      "独立实现 Unity AssetBundle 资源打包与动态加载框架，包含编辑器打包工具与运行时加载系统：支持 XML 规则配置、多粒度打包、自动依赖分析、同步/异步加载、双层引用计数与延迟卸载，适用于热更新资源管理。",
     bvid: "BV1xxxxxxxxx3",
-    tags: ["Unity", "C#", "Netcode", "Multiplayer"],
-    role: "主程序",
+    tags: ["Unity", "C#", "AssetBundle", "Editor"],
+    role: "独立开发",
     highlights: [
-      "客户端预测与服务器校验",
-      "射线检测射击系统",
-      "简易房间匹配逻辑",
+      "XML 配置驱动打包规则：File/Directory/All 多粒度策略",
+      "递归依赖分析 + 清单/映射表（二进制）生成，减少配置体积",
+      "Resource 层 + Bundle 层双层架构，双层引用计数 + LateUpdate 延迟卸载",
+    ],
+  },
+  {
+    title: "UIFramework 框架",
+    titleEn: "UIFramework",
+    slug: "ui-framework",
+    description:
+      "基于 Unity 的通用 UI 框架，支持界面栈管理、层级控制、生命周期回调和资源自动加载，适用于中大型项目的 UI 架构。",
+    bvid: "BV1xxxxxxxxx4",
+    tags: ["Unity", "C#", "UI", "层级控制"],
+    role: "独立开发",
+    highlights: [
+      "界面栈管理与层级控制",
+      "生命周期回调机制",
+      "资源自动加载与缓存",
+    ],
+  },
+  {
+    title: "UI 滚动列表",
+    titleEn: "UI Scroll List",
+    slug: "ui-scroll-list",
+    description:
+      "高性能 UI 滚动列表组件，支持无限滚动、对象池复用和动态数据绑定，解决大量数据下的性能问题。",
+    bvid: "BV1xxxxxxxxx5",
+    tags: ["Unity", "C#", "UI", "对象池复用"],
+    role: "独立开发",
+    highlights: [
+      "对象池复用机制",
+      "无限滚动与动态加载",
+      "高性能数据绑定",
     ],
   },
 ];
