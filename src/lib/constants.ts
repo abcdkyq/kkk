@@ -60,17 +60,17 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "AssetBundle资源框架",
-    titleEn: "Unity AssetBundle Framework",
+    title: "AssetBundle资源管理与xLua热更新框架",
+    titleEn: "Unity AssetBundle HotUpdate Framework",
     slug: "assetbundle-framework",
     description:
-      "独立实现 Unity AssetBundle 资源打包与动态加载框架，包含编辑器打包工具与运行时加载系统：支持 XML 规则配置、多粒度打包、自动依赖分析、同步/异步加载、双层引用计数与延迟卸载，适用于热更新资源管理。",
+      "独立实现 Unity AssetBundle 资源打包,管理和xLua热更新框架，包含编辑器打包工具与运行时加载系统：支持 XML 规则配置、AES加密解密、双层引用计数与延迟卸载，适用于热更新资源管理。",
     bvid: "BV1xxxxxxxxx3",
-    tags: ["Unity", "C#", "AssetBundle", "Editor"],
+    tags: ["Unity", "C#", "AssetBundle", "Editor","xLua热更新"],
     role: "独立开发",
     highlights: [
       "XML 配置驱动打包规则：File/Directory/All 多粒度策略",
-      "递归依赖分析 + 清单/映射表（二进制）生成，减少配置体积",
+      "AES加密解密AB包，校验版本文件进行资源更新",
       "Resource 层 + Bundle 层双层架构，双层引用计数 + LateUpdate 延迟卸载",
     ],
   },
