@@ -50,7 +50,7 @@ export const projects: Project[] = [
     slug: "3D-ARPG",
     description:
       "一款基于Unity 引擎开发的 3D 动作平台跳跃游戏，采用泛型 FSM 状态机架构驱动多种玩家动作状态，实现了物理驱动的角色控制、敌人 AI、关卡交互机制及三层数据持久化系统，支持手柄与键鼠跨平台输入。",
-    bvid: "BV1xxxxxxxxx2",
+    bvid: "BV1kzQZBYEdH",
     tags: ["Unity", "C#", "3D", "FSM有限状态机"],
     role: "独立开发",
     highlights: [
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     slug: "assetbundle-framework",
     description:
       "独立实现 Unity AssetBundle 资源打包,管理和xLua热更新框架，包含编辑器打包工具与运行时加载系统：支持 XML 规则配置、AES加密解密、双层引用计数与延迟卸载，适用于热更新资源管理。",
-    bvid: "BV1xxxxxxxxx3",
+    bvid: "BV1ckQZBhE5V",
     tags: ["Unity", "C#", "AssetBundle", "Editor","xLua热更新"],
     role: "独立开发",
     highlights: [
